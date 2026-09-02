@@ -1,0 +1,55 @@
+INFO:     Started server process [13992]
+INFO:     Waiting for application startup.
+2026-08-03 21:08:43,620 | INFO     | app.main | Seeding diseases_reference (idempotent)...
+2026-08-03 21:08:43,628 | INFO     | app.db.seed | diseases_reference already seeded, nothing to do
+2026-08-03 21:08:43,628 | INFO     | app.main | Loading ML models (this happens once at startup, not per-request)...
+C:\Users\disha\OneDrive\Desktop\Sanjanahtml\AgriVision\backend\app\ml\classifier.py:55: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(path, map_location=self.device)
+2026-08-03 21:08:46,649 | INFO     | app.ml.classifier | Loaded fine-tuned classifier checkpoint from models_store\classifier_best.pt
+2026-08-03 21:08:46,651 | INFO     | app.main | Startup complete. model_status=fine_tuned
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52512 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52513 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52514 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61827 - "GET /api/scans?page=1&page_size=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64226 - "GET /static/uploads/0ff1d503-bfa7-4f98-a4cd-59fc07c9c826/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62812 - "GET /static/uploads/e3a0e528-467d-48f3-91cc-0f1f360ce0d1/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53746 - "GET /static/uploads/5c22c6fa-390f-40bc-8a94-3b0fb3117b81/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /static/uploads/ff50c2e5-e5c1-427f-a139-ec0019c91320/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53437 - "GET /static/uploads/25656003-1e01-47ee-9659-fe30f9fd1850/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62771 - "GET /static/uploads/3a3f69d6-5b49-4614-bbb4-df326e4eda09/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /static/uploads/93816abd-0bdb-4e06-babf-3beb693a62b3/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53437 - "GET /static/uploads/fa930b21-dbc9-4c8f-b26f-9ee8f8f7ff12/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53437 - "GET /static/uploads/70bd6094-e8a1-45f7-a64e-2549b7e3520e/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54508 - "GET /static/uploads/7ab107dc-ca10-4952-813d-f4470cf6dae7/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62771 - "GET /static/uploads/78bb9f15-7e0b-4738-bca4-ed0d8eea9439/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62771 - "GET /static/uploads/a0e555b8-f0c8-4b26-bc75-b354cb208be7/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62160 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62160 - "GET /api/scans/519ed0f7-327c-47e6-821a-3c86500e2ab3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64976 - "GET /static/uploads/519ed0f7-327c-47e6-821a-3c86500e2ab3/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52064 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52064 - "GET /api/scans/53f9a460-650d-4214-9ae5-10a3137ae5d8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49982 - "GET /static/uploads/53f9a460-650d-4214-9ae5-10a3137ae5d8/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59976 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59976 - "GET /api/scans/1fb8c77a-035f-4c77-bfc8-4718b9020194 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51504 - "GET /static/uploads/1fb8c77a-035f-4c77-bfc8-4718b9020194/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64903 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64903 - "GET /api/scans/ea6f39fd-4bf8-4846-9f31-9abea45dd3e6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59324 - "GET /static/uploads/ea6f39fd-4bf8-4846-9f31-9abea45dd3e6/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50580 - "POST /api/scans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50580 - "GET /api/scans/1737feae-28d5-439b-85f8-1fe1f79461ef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58347 - "GET /static/uploads/1737feae-28d5-439b-85f8-1fe1f79461ef/overlay.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61375 - "GET /static/uploads/5c22c6fa-390f-40bc-8a94-3b0fb3117b81/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57603 - "GET /static/uploads/0ff1d503-bfa7-4f98-a4cd-59fc07c9c826/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52110 - "GET /static/uploads/e3a0e528-467d-48f3-91cc-0f1f360ce0d1/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52994 - "GET /static/uploads/25656003-1e01-47ee-9659-fe30f9fd1850/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59646 - "GET /api/scans?page=1&page_size=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /static/uploads/3a3f69d6-5b49-4614-bbb4-df326e4eda09/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59703 - "GET /static/uploads/1fb8c77a-035f-4c77-bfc8-4718b9020194/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52994 - "GET /static/uploads/53f9a460-650d-4214-9ae5-10a3137ae5d8/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52110 - "GET /static/uploads/519ed0f7-327c-47e6-821a-3c86500e2ab3/overlay.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59646 - "GET /api/scans/1fb8c77a-035f-4c77-bfc8-4718b9020194 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60021 - "GET /api/dashboard/stats HTTP/1.1" 200 OK

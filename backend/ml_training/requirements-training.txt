@@ -1,0 +1,6 @@
+# Extra dependencies needed only to run the ml_training/ scripts.
+# Not part of the runtime API image (see backend/Dockerfile) — install
+# these into your own training environment (ideally one with a GPU):
+#   pip install -r requirements.txt -r ml_training/requirements-training.txt
+scikit-learn==1.6.0
+matplotlib==3.10.0

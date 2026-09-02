@@ -1,0 +1,22 @@
+[
+  "Apple___apple_scab",
+  "Apple___black_rot",
+  "Apple___cedar_apple_rust",
+  "Apple___healthy",
+  "Corn___common_rust",
+  "Corn___gray_leaf_spot",
+  "Corn___healthy",
+  "Corn___northern_leaf_blight",
+  "Grape___black_rot",
+  "Grape___esca",
+  "Grape___healthy",
+  "Grape___leaf_blight",
+  "Peach___bacterial_spot",
+  "Peach___healthy",
+  "Strawberry___healthy",
+  "Strawberry___leaf_scorch",
+  "Tomato___bacterial_spot",
+  "Tomato___early_blight",
+  "Tomato___healthy",
+  "Tomato___late_blight"
+]

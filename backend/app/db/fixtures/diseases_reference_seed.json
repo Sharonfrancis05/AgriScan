@@ -1,0 +1,182 @@
+[
+  {
+    "crop": "Apple",
+    "disease_code": "Apple___apple_scab",
+    "disease_display_name": "Apple Scab",
+    "description": "Fungal disease (Venturia inaequalis) causing olive-green to brown scabby lesions on leaves and fruit.",
+    "treatment_text": "Apply a fungicide labeled for apple scab (e.g. captan or a triazole) starting at green-tip stage and repeat per label interval through wet spring weather. Remove and destroy fallen leaves in autumn to cut inoculum.",
+    "prevention_text": "Plant scab-resistant cultivars where possible. Prune for good air circulation and avoid overhead irrigation that keeps foliage wet.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Apple",
+    "disease_code": "Apple___black_rot",
+    "disease_display_name": "Black Rot",
+    "description": "Fungal disease (Botryosphaeria obtusa) causing purple-bordered leaf spots and fruit rot.",
+    "treatment_text": "Prune out cankered or dead wood and remove mummified fruit. Apply a labeled fungicide during the growing season, especially after storm damage.",
+    "prevention_text": "Sanitize pruning tools between cuts, remove nearby dead wood/debris, and maintain tree vigor with balanced fertilization.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Apple",
+    "disease_code": "Apple___cedar_apple_rust",
+    "disease_display_name": "Cedar Apple Rust",
+    "description": "Fungal disease requiring a nearby juniper/cedar host, causing bright orange leaf spots.",
+    "treatment_text": "Apply a protectant fungicide from pink bud through several weeks after petal fall in years with nearby cedar hosts.",
+    "prevention_text": "Remove nearby juniper/cedar trees if feasible, or plant rust-resistant apple cultivars.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Apple",
+    "disease_code": "Apple___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine monitoring, balanced fertilization, and good orchard sanitation.",
+    "is_healthy_label": true
+  },
+  {
+    "crop": "Grape",
+    "disease_code": "Grape___black_rot",
+    "disease_display_name": "Black Rot",
+    "description": "Fungal disease (Guignardia bidwellii) causing tan leaf spots with dark borders and shriveled fruit.",
+    "treatment_text": "Apply fungicide starting at 2-3 inch shoot growth and continue through fruit set per label; remove mummified berries.",
+    "prevention_text": "Prune for canopy airflow, remove infected plant debris, and avoid working in wet vineyards.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Grape",
+    "disease_code": "Grape___esca",
+    "disease_display_name": "Esca (Black Measles)",
+    "description": "Complex fungal trunk disease causing tiger-stripe leaf discoloration and berry spotting.",
+    "treatment_text": "No curative fungicide exists; remove and destroy severely affected vines/wood, protect pruning wounds with a wound sealant.",
+    "prevention_text": "Prune during dry weather, avoid large pruning wounds, and maintain vine vigor to slow disease progression.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Grape",
+    "disease_code": "Grape___leaf_blight",
+    "disease_display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+    "description": "Fungal disease causing angular brown leaf spots that can lead to defoliation.",
+    "treatment_text": "Apply a labeled fungicide at first symptom appearance and repeat through the growing season in humid conditions.",
+    "prevention_text": "Improve canopy airflow via leaf pulling/pruning and avoid excess nitrogen that promotes dense foliage.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Grape",
+    "disease_code": "Grape___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine canopy management and vineyard sanitation.",
+    "is_healthy_label": true
+  },
+  {
+    "crop": "Corn",
+    "disease_code": "Corn___gray_leaf_spot",
+    "disease_display_name": "Gray Leaf Spot",
+    "description": "Fungal disease (Cercospora zeae-maydis) causing rectangular gray-tan lesions between leaf veins.",
+    "treatment_text": "Apply a foliar fungicide at early symptom onset in susceptible hybrids, particularly under humid conditions.",
+    "prevention_text": "Rotate away from corn, till under infected residue, and plant resistant hybrids.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Corn",
+    "disease_code": "Corn___common_rust",
+    "disease_display_name": "Common Rust",
+    "description": "Fungal disease (Puccinia sorghi) producing small, cinnamon-brown pustules on both leaf surfaces.",
+    "treatment_text": "Apply a labeled fungicide if rust develops before tasseling on susceptible hybrids.",
+    "prevention_text": "Plant rust-resistant hybrids; rust is usually not yield-limiting on resistant varieties.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Corn",
+    "disease_code": "Corn___northern_leaf_blight",
+    "disease_display_name": "Northern Leaf Blight",
+    "description": "Fungal disease causing long, elliptical gray-green to tan lesions on leaves.",
+    "treatment_text": "Apply a foliar fungicide at first sign of lesions, especially between tasseling and silking.",
+    "prevention_text": "Rotate crops, till residue, and select resistant hybrids where blight pressure is historically high.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Corn",
+    "disease_code": "Corn___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine scouting and residue/rotation management.",
+    "is_healthy_label": true
+  },
+  {
+    "crop": "Tomato",
+    "disease_code": "Tomato___bacterial_spot",
+    "disease_display_name": "Bacterial Spot",
+    "description": "Bacterial disease causing small, water-soaked spots on leaves and fruit.",
+    "treatment_text": "Apply a copper-based bactericide at first sign of disease; avoid overhead watering to limit spread.",
+    "prevention_text": "Use certified disease-free seed/transplants, rotate crops, and avoid working in wet plants.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Tomato",
+    "disease_code": "Tomato___early_blight",
+    "disease_display_name": "Early Blight",
+    "description": "Fungal disease (Alternaria solani) causing target-like concentric-ring leaf spots, usually on older leaves first.",
+    "treatment_text": "Apply a labeled fungicide (e.g. chlorothalonil or a strobilurin) on a regular schedule once symptoms appear; remove affected lower leaves.",
+    "prevention_text": "Mulch to reduce soil splash, stake/prune for airflow, and rotate with non-solanaceous crops.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Tomato",
+    "disease_code": "Tomato___late_blight",
+    "disease_display_name": "Late Blight",
+    "description": "Oomycete disease (Phytophthora infestans) causing rapidly spreading water-soaked lesions; can destroy a crop in days under cool, wet conditions.",
+    "treatment_text": "Apply a labeled fungicide immediately at first symptoms and remove/destroy severely infected plants to slow spread; this disease can be highly destructive if untreated.",
+    "prevention_text": "Plant resistant varieties, avoid overhead irrigation, ensure good airflow, and monitor local blight forecasts during cool wet weather.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Tomato",
+    "disease_code": "Tomato___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine scouting, balanced watering, and crop rotation.",
+    "is_healthy_label": true
+  },
+  {
+    "crop": "Strawberry",
+    "disease_code": "Strawberry___leaf_scorch",
+    "disease_display_name": "Leaf Scorch",
+    "description": "Fungal disease (Diplocarpon earlianum) causing small purple spots that merge into scorched-looking patches.",
+    "treatment_text": "Remove and destroy infected leaves after harvest and apply a labeled fungicide during wet spring conditions.",
+    "prevention_text": "Renovate beds annually, avoid overhead irrigation, and space plants for airflow.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Strawberry",
+    "disease_code": "Strawberry___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine bed renovation and irrigation management.",
+    "is_healthy_label": true
+  },
+  {
+    "crop": "Peach",
+    "disease_code": "Peach___bacterial_spot",
+    "disease_display_name": "Bacterial Spot",
+    "description": "Bacterial disease causing small dark leaf spots (often with a 'shot-hole' appearance) and pitted fruit lesions.",
+    "treatment_text": "Apply a labeled copper or antibiotic bactericide during the dormant/early season per local guidance; avoid working in wet orchards.",
+    "prevention_text": "Plant resistant varieties, maintain tree vigor, and avoid excess nitrogen that produces susceptible new growth.",
+    "is_healthy_label": false
+  },
+  {
+    "crop": "Peach",
+    "disease_code": "Peach___healthy",
+    "disease_display_name": "Healthy",
+    "description": "No visible disease symptoms detected.",
+    "treatment_text": "No treatment necessary.",
+    "prevention_text": "Continue routine orchard monitoring and balanced fertilization.",
+    "is_healthy_label": true
+  }
+]
