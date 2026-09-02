@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Chart color roles (dataviz skill's validated categorical palette + chrome).
+   Fixed hue order across the 6 supported crops — never reassigned per-render. */
+:root {
+  --chart-surface: #fcfcfb;
+  --chart-grid: #e1e0d9;
+  --chart-axis: #c3c2b7;
+  --chart-text-secondary: #52514e;
+  --chart-1: #2a78d6; /* blue   - Apple */
+  --chart-2: #eb6834; /* orange - Grape */
+  --chart-3: #1baf7a; /* aqua   - Corn */
+  --chart-4: #eda100; /* yellow - Tomato */
+  --chart-5: #e87ba4; /* magenta- Strawberry */
+  --chart-6: #008300; /* green  - Peach */
+}
+
+.dark {
+  --chart-surface: #1a1a19;
+  --chart-grid: #2c2c2a;
+  --chart-axis: #383835;
+  --chart-text-secondary: #c3c2b7;
+  --chart-1: #3987e5;
+  --chart-2: #d95926;
+  --chart-3: #199e70;
+  --chart-4: #c98500;
+  --chart-5: #d55181;
+  --chart-6: #008300;
+}
