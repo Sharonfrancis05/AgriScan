@@ -104,3 +104,6 @@ Thumbs.db
 *.temp
 *.swp
 *.swo
+
+# Docker logs
+docker_up_log.txt
