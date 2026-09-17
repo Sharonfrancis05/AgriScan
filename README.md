@@ -1,4 +1,4 @@
-# AgriVision
+# AgriScan
 
 AI-based multi-crop leaf disease detection, severity estimation, and
 automated PDF report generation. Users capture or upload a leaf photo; the
